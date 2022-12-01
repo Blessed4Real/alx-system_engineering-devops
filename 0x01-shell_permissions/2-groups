@@ -1,2 +1,2 @@
 #!/bin/bash
-pts membership 
+awk -F :{print$1} /etc/gshadow 
